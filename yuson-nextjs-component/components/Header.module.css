@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.subtitle {
+  color: #030303;
+  margin-top: 8px;
+  font-size: 1.05rem;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #3b82f6;  
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;    
+}

@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000102;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.08);
+  max-width: 640px;
+  margin: 20px auto;
+  background: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(7, 9, 15, 0.12);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.info h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.age {
+  margin: 4px 0;
+  color: #000000;
+}
+
+.desc {
+  margin: 6px 0 0 0;
+  color: #080808;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    margin: 0 0 12px 0;
+  }
+}
